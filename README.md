@@ -108,20 +108,24 @@ resource "kubernetes_service" "wp-expose"{
   }
 }
 ```
-#@ Step 4: The Wordpress application should be accessible from the public world if deployed on AWS or through workstation if deployed on Minikube.
+## Step 4: The Wordpress application should be accessible from the public world if deployed on AWS or through workstation if deployed on Minikube.
 Command to run whole code.
+```
 terraform init
+```
+![alt text](/09.PNG)
 
 ```
 terraform apply --auto-approve
 ```
+![alt text](/10.PNG)
 
-Output:
+### Output:
 
 
+![alt text](/08.PNG)
 
-
-Wordpress:
+### Wordpress:
 
 ![alt text](/01.PNG)
 ![alt text](/02.PNG)
